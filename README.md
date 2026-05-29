@@ -17,8 +17,7 @@ Correlation analysis: Pearson's r computed between numeric location features and
 Multiple Linear Regression: two models estimated: Model A using neighbourhood dummies only, Model B adding zoning, proximity conditions, lot size, and geographic coordinates
 Cross-validation: 5-fold cross-validation used to verify results generalise beyond the training data
 
-Key Findings
-
+Key Findings:
 Neighbourhood alone explains 57% of the variance in sale prices (R² = 0.570)
 Adding other location features raises this to 63% (R² = 0.626), a gain of 5.6 percentage points
 The most expensive neighbourhood (Northridge) commands prices 83% above the overall mean of $187,375
@@ -26,8 +25,7 @@ The cheapest neighbourhood (Meadow_Village) sits 47% below the overall mean
 Proximity to positive features such as parks adds up to $186,000 to predicted price
 Latitude is the strongest individual numeric predictor (r = +0.291), reflecting that northern Ames consistently hosts higher-value properties
 
-Libraries Used
-
+Libraries Used:
 pandas, numpy — data manipulation
 matplotlib, seaborn — visualisation
 scikit-learn — one-hot encoding, linear regression, cross-validation metrics
