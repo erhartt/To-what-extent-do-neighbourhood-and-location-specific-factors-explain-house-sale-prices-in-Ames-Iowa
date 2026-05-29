@@ -26,6 +26,6 @@ Proximity to positive features such as parks adds up to $186,000 to predicted pr
 Latitude is the strongest individual numeric predictor (r = +0.291), reflecting that northern Ames consistently hosts higher-value properties
 
 Libraries Used:
-pandas, numpy — data manipulation
-matplotlib, seaborn — visualisation
-scikit-learn — one-hot encoding, linear regression, cross-validation metrics
+pandas, numpy: data manipulation
+matplotlib, seaborn: visualisation
+scikit-learn: one-hot encoding, linear regression, cross-validation metrics
